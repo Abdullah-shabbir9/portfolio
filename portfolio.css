@@ -208,21 +208,11 @@ header .navbar ul li a:hover {
   padding-top: 1rem;
   z-index: 1;
 }
-.home .image { flex: 1 1 40rem;
-  z-index: 1;}
-  .home .image .tilt{
-    border: solid 20px linear-gradient(to bottom right, #ff0000, #0000ff) 1;
-    border-radius: 300px;
-
-        padding: 10px; /* Adjust padding to control the distance between the image and the border */
+.home .image { 
+  flex: 1 1 40rem;
+  z-index: 1;
 }
-      
-      .image-container img {
-        display: block;
-        width: 100%;
-        height: auto;
-      }
- 
+  
 
 .home .image img {
   width: 70%;
@@ -230,6 +220,8 @@ header .navbar ul li a:hover {
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   cursor: pointer;
+  border: solid 10px white;
+
 }
 .home .image img:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
@@ -239,6 +231,7 @@ header .navbar ul li a:hover {
   font-weight: 800;
   color: #002057;
 }
+
 .home .content h2 span {
   font-size: 5rem;
   font-weight: 800;
