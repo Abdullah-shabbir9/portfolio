@@ -262,9 +262,7 @@ header .navbar ul li a:hover {
 .home .btn:hover {
   background: #1a047e;
 }
-.home .btn:hover i {
-  transform: translateX(5px);
-}
+
 .socials {
   position: relative;
   margin-top: 9rem;
